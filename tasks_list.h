@@ -23,6 +23,8 @@ __published:	// IDE-managed Components
 	TListBox *Task_Box;
 	TFloatAnimation *FloatAnimation1;
 	void __fastcall Add_ButtonClick(TObject *Sender);
+	void __fastcall Task_BoxItemClick(TCustomListBox * const Sender, TListBoxItem * const Item);
+
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm1(TComponent* Owner);

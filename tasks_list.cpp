@@ -17,10 +17,13 @@ __fastcall TForm1::TForm1(TComponent* Owner)
 void __fastcall TForm1::Add_ButtonClick(TObject *Sender)
 {
 
-		  if( Task_Input->Text != "")
-			Task_Box->Items->Add(Task_Input->Text);
+		  if( Task_Input->Text != "")  {
+			  Task_Box->Items->Add(Task_Input->Text);
+              Task_Input->Text= "";
+		  }
 
-          Task_Input->Text= "";
+
+
 }
 //---------------------------------------------------------------------------
 

@@ -17,11 +17,12 @@
 class TForm1 : public TForm
 {
 __published:	// IDE-managed Components
-	TButton *Button1;
+	TButton *Add_Button;
 	TLabel *Label1;
-	TEdit *Edit1;
-	TListBox *ListBox1;
+	TEdit *Task_Input;
+	TListBox *Task_Box;
 	TFloatAnimation *FloatAnimation1;
+	void __fastcall Add_ButtonClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm1(TComponent* Owner);

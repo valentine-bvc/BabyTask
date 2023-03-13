@@ -1,16 +1,16 @@
-﻿[Button1]
-Coordinates=159,10,59,58
-
-[Label1]
+﻿[Label1]
 Coordinates=228,10,53,58
-
-[ListBox1]
-Coordinates=10,10,139,212
-
-[Edit1]
-Coordinates=291,10,44,58
 
 []
 Coordinates=80,231,49,36
 Visible=True
+
+[Add_Button]
+Coordinates=159,10,59,58
+
+[Task_Input]
+Coordinates=291,10,44,58
+
+[Task_Box]
+Coordinates=10,10,139,212
 

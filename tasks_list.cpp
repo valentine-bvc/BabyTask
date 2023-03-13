@@ -14,3 +14,13 @@ __fastcall TForm1::TForm1(TComponent* Owner)
 {
 }
 //---------------------------------------------------------------------------
+void __fastcall TForm1::Add_ButtonClick(TObject *Sender)
+{
+		  String tasktext=  Task_Input->Text;
+		  if( tasktext!= "")
+			Task_Box->Items->Add(tasktext);
+
+          Task_Input->Text= "";
+}
+//---------------------------------------------------------------------------
+

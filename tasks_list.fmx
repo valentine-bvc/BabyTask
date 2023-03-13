@@ -1,7 +1,7 @@
 object Form1: TForm1
   Left = 0
   Top = 0
-  Caption = 'Form1'
+  Caption = 'TaskWise'
   ClientHeight = 356
   ClientWidth = 424
   FormFactor.Width = 320
@@ -15,12 +15,15 @@ object Form1: TForm1
     Size.Height = 34.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 1
-    Text = 'Button1'
+    Text = 'Add'
   end
   object Label1: TLabel
-    Position.X = 152.000000000000000000
-    Position.Y = 8.000000000000000000
-    Text = 'Label1'
+    Position.X = 40.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 16.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Add task:'
     TabOrder = 2
   end
   object Edit1: TEdit

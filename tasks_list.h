@@ -12,6 +12,7 @@
 #include <FMX.ListBox.hpp>
 #include <FMX.StdCtrls.hpp>
 #include <FMX.Types.hpp>
+#include <FMX.Ani.hpp>
 //---------------------------------------------------------------------------
 class TForm1 : public TForm
 {
@@ -20,6 +21,7 @@ __published:	// IDE-managed Components
 	TLabel *Label1;
 	TEdit *Edit1;
 	TListBox *ListBox1;
+	TFloatAnimation *FloatAnimation1;
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm1(TComponent* Owner);

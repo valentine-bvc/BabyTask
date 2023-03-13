@@ -19,7 +19,8 @@ void __fastcall TForm1::Add_ButtonClick(TObject *Sender)
 
 		  if( Task_Input->Text != "")  {
 			  Task_Box->Items->Add(Task_Input->Text);
-              Task_Input->Text= "";
+			  Task_Input->Text= "";
+
 		  }
 
 

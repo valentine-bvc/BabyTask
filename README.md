@@ -1,5 +1,5 @@
 ---
-__ BabyTask App :)__
+## BabyTask App 
 
 - [Project built in RAD Studio using c++ builder](https://www.embarcadero.com/products/rad-studio)
 
